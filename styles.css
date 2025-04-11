@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: yellow;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 3px;
+}
+
+.block {
+    border-radius: 10px;
+    width: 800px;
+    margin: 0px auto;
+}
+.text {
+    margin-bottom: 20px;
+}
+a {
+    border: 1px solid yellow;
+    color: yellow;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 0px;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    transition: 0.5s linear;
+}
+a:active {
+    background-color: rgb(190, 190, 0);
+    transition: 0.1s linear;
+}
+
+.desc {
+    border: 1px solid yellow;
+    border-radius: 0px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 80%;
+}
