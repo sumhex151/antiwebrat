@@ -1,7 +1,7 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 80);
     text-align: center;
-    color: yellow;
+    color: white;
     font-family: 'Exo 2', sans-serif;
     font-size: 17px;
     letter-spacing: 2px;
@@ -17,8 +17,8 @@ body {
     margin-bottom: 20px;
 }
 a {
-    border: 1px solid yellow;
-    color: yellow;
+    border: 1px solid white;
+    color: white;
     font-size: 14px;
     text-decoration: none;
     padding: 10px 15px;
@@ -26,16 +26,16 @@ a {
 }
 a:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 255, 255);
     transition: 0.5s linear;
 }
 a:active {
-    background-color: rgb(190, 190, 0);
+    background-color: rgb(255, 255, 255);
     transition: 0.1s linear;
 }
 
 .desc {
-    border: 1px solid yellow;
+    border: 1px solid white;
     border-radius: 0px;
     padding: 10px;
     margin-top: 30px;
